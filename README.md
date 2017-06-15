@@ -9,20 +9,23 @@ Each order has a series of pairs with each pair containing the number of items f
 
 # Output
 
-A successfully passing test(s) that demonstrates the following output: 
-`10 VS5`
-`Total cost: $17.98`
-`2 x 5 $8.99``
+A successfully passing test(s) that demonstrates the following output:
 
-`14 MB11`
-`Total cost: $53.8`
-`2 x 2 $9.95`
-`2 x 5 $16.95`
+```
+10 VS5
+Total cost: $17.98
+2 x 5 $8.99
 
-`13 CF`
-`Total cost: $25.85`
-`2 x 5 $9.95`
-`1 x 3 $5.95`
+14 MB11
+Total cost: $53.8
+2 x 2 $9.95
+2 x 5 $16.95
+
+13 CF
+Total cost: $25.85
+2 x 5 $9.95 
+1 x 3 $5.95
+```
 
 # Assumptions
 - For a required item count, try to find pack breakdown with the least total cost. For pack breakdown with same total cost, use the one with the fewest number of packs
